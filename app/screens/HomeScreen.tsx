@@ -14,6 +14,7 @@ const HomeScreen = () => {
     <StyledView className="flex-1 justify-center items-center">
       <Text>Pantalla de inicio</Text>
       <Button title="Go to Chat" onPress={() => navigation.navigate('chat')} />
+      <Button title="Go to Login" onPress={() => navigation.navigate('login')} />
     </StyledView>
   );
 }
