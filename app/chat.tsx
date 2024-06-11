@@ -1,10 +1,10 @@
 
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import HomeScreen from "./screens/HomeScreen";
+import ChatScreen from "./screens/ChatScreen";
 
 export default function App() {
   return (
-      <HomeScreen />
+      <ChatScreen />
   );
 }
