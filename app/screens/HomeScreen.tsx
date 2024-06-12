@@ -1,4 +1,3 @@
-// screens/HomeScreen.tsx
 import React from 'react';
 import { Button, Text, View } from 'react-native';
 import { useNavigation, NavigationProp } from '@react-navigation/native';
