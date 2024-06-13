@@ -1,10 +1,11 @@
 import React from 'react';
 import { Stack } from 'expo-router';
 import { AuthProvider } from '../hooks/useAuth';
+import 'tailwindcss/tailwind.css';
 
 export default function RootLayout() {
   return (
-    <AuthProvider>
+    <AuthProvider children={undefined}>
       <Stack>
         <Stack.Screen name="index" options={{ title: 'Home' }} />
         <Stack.Screen name="chat" options={{ title: 'Chat' }} />
@@ -13,4 +14,3 @@ export default function RootLayout() {
     </AuthProvider>
   );
 }
-
